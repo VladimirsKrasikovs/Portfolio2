@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(24, 139, 228);
+    font-family: 'Times New Roman', Times, serif
+  }  
+  figure {
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+  
+ 
+img {
+    width: 220px;
+    height: 150px;
+  }

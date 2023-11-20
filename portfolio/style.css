@@ -1,0 +1,132 @@
+
+body {
+  background: #000207;
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  color: white;
+  position: relative;
+}  
+
+.header{
+  display: flex;  
+  border: 1px solid lightgrey;
+  align-items: center;
+  background-color: #333333;
+  justify-content:space-between;
+  width: 100%;
+  opacity: 0.65;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #141E30;
+  background-color: #333;
+}
+
+#head{ 
+    font-family: cursive, 'Lucida Sans';
+    font-weight: 1000; 
+    opacity: 1;
+  }
+  
+
+header li{
+  display: inline-block;
+  padding: 15px;
+}
+
+#about li:hover{
+  color: #141E30;
+}
+
+
+#main {
+    width: 600px;
+    height: 300px;
+    position: relative;
+  
+}
+  
+
+.jumbotron {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://4.bp.blogspot.com/-YD1z8aP7w8E/XIGjKoP7lGI/AAAAAAAAFsY/DT8tAMxzAigJtVJEZrKWZf1HsXDO-etvwCLcBGAs/s1600/RigaZ1DJI_0288_1vidmaz.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container{
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.container h1{
+  position: absolute;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  text-justify: inter-word;
+}
+
+.supporting img {
+  height: 60px;
+}
+
+form {
+  text-align: left;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  color: white;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  
+}
+
+#table{
+  border: 2px solid white;
+}
+
+
+ul.footer {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+#companyName{
+  font-weight: bold;
+} 
+
+button:active{
+  color: red;
+}
